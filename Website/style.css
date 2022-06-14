@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    background-color:#1C1B21;
+}
+
+
+header{
+    width: 100%;
+    display: flex;
+    position: absolute;
+}
+
+.navbar{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    display: flex;
+}
+
+#pic_logo{
+    margin-top: 30px;
+    background-image: url('img/Ellipse 1.png'); 
+    width: 60px;
+    height: 60px;
+}
+
+#name_logo{
+    margin-top: 42px;
+    background-image: url('img/Rectangle 5.png');
+    width: 143px;
+    height: 42px;
+    margin-left: 20px;
+
+}
+
+.nav-menu{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    margin-top: 42px;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color:blueviolet;
+}
+
+.container{
+    height: 700px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.art_1{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #1C1B21 92%), url('img/Rectangle 6 (2).png');
+    width: 100%;
+    min-width: 800px;   
+    max-width: auto;
+}
+
+
+#h2_single{
+    color: white; 
+    font-size: 3em;
+    margin-left: 10%;
+    height: 350px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#h2_war{
+    display: inline-block;
+    background: linear-gradient(45deg, white 30%, #ce1adf 30%, #5c92e4 65%, #07234d 65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 6.25em;
+    margin-left: 10%;
+
+}
+
+.pol{
+    margin-left: 10%;
+}
+
+.line_2{
+    margin-left: 5%;
+}
+
+.line_1{
+    max-width: 50%;     
+}
+
+.music_time{
+    color: white;
+    display:inline-block;
+
+}
+
+.art_2{
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.img_1{
+    background-image:url('img/Rectangle 20.png');
+    height:500px;
+    width: 255px;
+    display:inline-block;
+    margin-bottom: 20px;
+}
+
+.img_23{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_235{
+    margin-bottom: 20px;
+}
+
+
+.img_2{
+    background-image:url('img/Rectangle 21.png');
+    height: 235px;;
+    width: 255px;
+    display:inline-block;
+}
+
+
+.img_3{
+    background-image:url('img/Rectangle 22.png');
+    height: 235px;;
+    width: 255px;
+    display:inline-block;
+}
+
+.img_4{
+    background-image:url('img/Rectangle 23.png');
+    height:500px;
+    width: 255px;
+    display:inline-block;
+}
+
+.img_5{
+    background-image:url('img/Rectangle 25.png');
+    height:235px;
+    width: 540px;
+    display:inline-block;
+    margin-top: 30px;
+    color: #7A66CC;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+footer{
+    height: 400px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo_f{
+    width: 250px;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+}
+
+footer div span{
+    color:white; 
+    font-size: 1rem;
+}
+
+footer div span pre{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.icon{
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
